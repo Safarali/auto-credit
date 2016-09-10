@@ -1,0 +1,64 @@
+/* ================= GENERAL ================= */
+
+html, body {
+	-webkit-font-smoothing:antialiased;
+	-moz-font-smoothing:antialiased;
+}
+
+a,
+a:hover,
+a:active,
+a:visited,
+a:focus {
+	text-decoration: none;
+}
+
+
+/* ================= Top part ================= */
+.top-navbar {
+	padding: 15px 100px;
+	overflow: hidden;
+}
+
+
+.logo {
+	float: left;
+}
+
+.logo img {
+	height: 80px;
+	width: auto;
+}
+
+.schedule-call {
+	float: right;
+	margin-bottom: 0px;
+	position: relative;
+	top: 30px;
+}
+
+.my-button,
+.my-button:focus{
+	padding: 15px 25px;
+	background-color: #e74c3c;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.my-button:hover{
+	background-color: #c0392b;
+	color: #fff;
+}
+
+
+/* ================= Header-Banner================= */
+
+.hero-banner {
+	background-image: -webkit-linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url('../images/hero2.jpg');
+	background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url('../images/hero2.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center;
+	height: 80vh;
+}
