@@ -62,7 +62,7 @@ a:focus {
 	background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url('../images/hero2.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-attachment: scroll;
+	background-attachment: scroll;;
 	background-position: center;
 	height: 80vh;
 }
@@ -111,6 +111,7 @@ a:focus {
 	outline: none !important;
 	border: none;
 	width: 100%;
+	font-size: 18px;
 }
 
 form h2, form p {

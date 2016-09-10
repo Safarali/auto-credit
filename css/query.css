@@ -24,6 +24,7 @@
 
 	.hero-form {
 		background: rgba(0,0,0,.3);
+		margin-top: -30px;
 	}
 
 	.hero-text {
@@ -53,5 +54,15 @@
 
 	.form-control {
 		padding: 25px;
+	}
+}
+
+@media (max-width: 321px) {
+	.hero-form {
+		top: 55px;
+	}
+
+	form h2 {
+		margin-top: 0px;
 	}
 }
