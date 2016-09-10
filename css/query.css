@@ -1,68 +1,57 @@
+/* iPhone */
 
-
-
-@media (min-width: 501px) and (max-width:650px) {
-	.top-navbar {
-		padding: 5px 20px;
-	}
-}
-
-@media (max-width: 500px) {
-	.top-navbar {
-		padding:5px 20px;
-	}
-
-	.my-button,
-	.my-button:hover,
-	.my-button:focus {
-		padding: 10px;
-	}
+@media only screen and (max-width: 768px) {
 
 	.hero-banner {
 		height: 100vh;
 	}
+	.top-navbar {
+		padding-right: 20px;
+		padding-left: 20px;
+	}
 
-	.hero-form {
-		background: rgba(0,0,0,.3);
-		margin-top: -30px;
+	.call-us {
+		top: 20px;
+	}
+	.call-us a  {
+		font-size: 20px;
+	}
+
+	.logo img {
+		height: 60px;
 	}
 
 	.hero-text {
 		top: 30px;
-		font-weight: bold;
 	}
 	.hero-text h1 {
 		font-size: 30px;
+		font-weight: bold;
 	}
+
 	.hero-text p {
-		font-size: 16px;
+		font-size: 20px;
+		font-weight: bold;
 	}
 
-
-	form p, form h2 {
-		color: #fff;
+	.hero-form {
+		top: 50px;
+		background-color: rgba(0, 0, 0, 0.3);
 	}
 
 	form h2 {
-		font-size: 25px;
+		color: #fff;
+		font-size: 20px;
+
 	}
 
 	form p {
+		color: #fff;
 		font-size: 16px;
 	}
 
-
 	.form-control {
-		padding: 25px;
+		padding: 20px;
 	}
+
 }
-
-/*@media (max-width: 321px) {
-	.hero-form {
-		top: 55px;
-	}
-
-	form h2 {
-		margin-top: 0px;
-	}
-}*/

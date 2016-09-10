@@ -33,13 +33,17 @@ a:focus {
 	width: auto;
 }
 
-.schedule-call {
+.call-us {
 	float: right;
 	margin-bottom: 0px;
 	position: relative;
 	top: 30px;
 }
 
+.call-us a {
+	font-size: 25px;
+	color: #e74c3c;
+}
 .my-button,
 .my-button:focus{
 	border-radius: 3px;
@@ -64,8 +68,7 @@ a:focus {
 	background-repeat: no-repeat;
 	background-attachment: scroll;;
 	background-position: center;
-	height: 80vh;
-	overflow: hidden;
+	height: 90vh;
 }
 
 
@@ -95,7 +98,7 @@ a:focus {
 	background: #FEFDFB;
 	border: none;
 	position: relative;
-	top: 100px;
+	top: 80px;
 }
 .form-control {
 	padding: 25px;
