@@ -65,6 +65,7 @@ a:focus {
 	background-attachment: scroll;;
 	background-position: center;
 	height: 80vh;
+	overflow: hidden;
 }
 
 
