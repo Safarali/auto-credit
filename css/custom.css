@@ -101,14 +101,13 @@ a:focus {
 	top: 80px;
 }
 .form-control {
-	padding: 25px;
+	padding: 24px;
+	box-shadow: none;
+	outline: none !important;
 }
 .form-control:focus {
-	outline: none !important;
-	box-shadow: none;
-	border: 1px solid rgba(231, 76, 60,.5);
+	border: none;
 	border-left: 5px solid rgba(231, 76, 60,.5);
-
 }
 
 .deals-button {
