@@ -1,5 +1,8 @@
 /* ================= GENERAL ================= */
 
+* {
+	font-family: 'Montserrat', sans-serif;
+}
 html, body {
 	-webkit-font-smoothing:antialiased;
 	-moz-font-smoothing:antialiased;
@@ -39,6 +42,7 @@ a:focus {
 
 .my-button,
 .my-button:focus{
+	border-radius: 3px;
 	padding: 15px 25px;
 	background-color: #e74c3c;
 	color: #fff;
@@ -61,4 +65,72 @@ a:focus {
 	background-attachment: scroll;
 	background-position: center;
 	height: 80vh;
+}
+
+
+/* === Hero text  ==== */
+.hero-text {
+	position: relative;
+	top: 130px;
+}
+.hero-text h1 {
+	color: #fff;
+	font-size: 50px;
+	font-family: 'Montserrat', sans-serif;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.hero-text p {
+	color: #fff;
+	font-size: 30px;
+	font-family: 'Poppins', 'Arial', sans-serif;
+}
+
+
+/* === Hero form  ==== */
+.hero-form{
+	background: rgba(254,253,531,0.7);
+	background: #FEFDFB;
+	border: none;
+	position: relative;
+	top: 100px;
+}
+.form-control {
+	padding: 25px;
+}
+.form-control:focus {
+	outline: none !important;
+	box-shadow: none;
+	border: 1px solid rgba(231, 76, 60,.5);
+	border-left: 5px solid rgba(231, 76, 60,.5);
+
+}
+
+.deals-button {
+	outline: none !important;
+	border: none;
+	width: 100%;
+}
+
+form h2, form p {
+	color: #34495e;
+	text-align: center;
+}
+
+form h2 {
+	font-size: 35px;
+}
+
+form p {
+	font-size: 18px;
+	font-family: 'Poppins', 'Arial', sans-serif;
+}
+
+hr {
+	text-align: center;
+	width: 50%;
+	height: 3px;
+	border: none;
+	background-color: #e74c3c;
 }
