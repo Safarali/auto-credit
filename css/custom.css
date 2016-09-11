@@ -37,12 +37,13 @@ a:focus {
 	float: right;
 	margin-bottom: 0px;
 	position: relative;
-	top: 30px;
+	top: 25px;
 }
 
 .call-us a {
 	font-size: 25px;
-	color: #e74c3c;
+	color: rgba(41, 128, 185,1.0);
+	font-weight: bold;
 }
 .my-button,
 .my-button:focus{
@@ -68,6 +69,7 @@ a:focus {
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 600px;
+	border-top: 5px solid rgba(231, 76, 60,1)
 }
 
 
@@ -106,7 +108,7 @@ a:focus {
 .form-control:focus {
 	box-shadow: none;
 	border: 1px solid rgba(231, 76, 60,0.5);
-	border-left: 4px solid rgba(231, 76, 60,0.5);
+	border-left: 4px solid rgba(231, 76, 60,0.7);
 }
 
 .deals-button {
