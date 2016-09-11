@@ -67,7 +67,7 @@ a:focus {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	height: 90vh;
+	height: 600px;
 }
 
 
@@ -106,7 +106,7 @@ a:focus {
 }
 .form-control:focus {
 	border: none;
-	border-left: 5px solid rgba(231, 76, 60,.5);
+	/*border-left: 5px solid rgba(231, 76, 60,.5);*/
 }
 
 .deals-button {
