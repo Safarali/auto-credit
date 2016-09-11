@@ -8,6 +8,9 @@ html, body {
 	-moz-font-smoothing:antialiased;
 }
 
+.row {
+	margin-right: 0px;
+}
 a,
 a:hover,
 a:active,
@@ -16,6 +19,34 @@ a:focus {
 	text-decoration: none;
 }
 
+section {
+	padding: 60px 0;
+}
+
+hr {
+	text-align: center;
+	width: 50%;
+	height: 3px;
+	border: none;
+	background-color: #e74c3c;
+}
+
+section hr {
+	width: 15%;
+	margin-bottom: 60px;
+}
+
+h3 {
+	font-size: 28px;
+	line-height: 38px;
+	color: #34495e;
+}
+
+p {
+	font-size: 18px;
+	line-height: 26px;
+	color: #34495e;
+}
 
 /* ================= Top part ================= */
 .top-navbar {
@@ -31,6 +62,7 @@ a:focus {
 .logo img {
 	height: 80px;
 	width: auto;
+	margin: 0px;
 }
 
 .call-us {
@@ -42,7 +74,7 @@ a:focus {
 
 .call-us a {
 	font-size: 25px;
-	color: rgba(41, 128, 185,1.0);
+	color: #2980b9;
 	font-weight: bold;
 }
 .my-button,
@@ -69,7 +101,7 @@ a:focus {
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 600px;
-	border-top: 5px solid rgba(231, 76, 60,1)
+	border-top: 5px solid #e74c3c;
 }
 
 
@@ -131,11 +163,25 @@ form p {
 	font-size: 18px;
 	font-family: 'Poppins', 'Arial', sans-serif;
 }
+/* ========== Section how it works ============= */
 
-hr {
-	text-align: center;
-	width: 50%;
-	height: 3px;
-	border: none;
-	background-color: #e74c3c;
+
+.how-it-works i{
+	font-size: 70px;
+	color: #27ae60;
+	margin-bottom: 20px;
+}
+
+.how-it-works hr {
+	width: 15%;
+	margin-bottom: 60px;
+}
+/* ========== Section Loan requirements =========== */
+
+.details {
+	background-color: #34495e;
+}
+
+.details  h3 {
+	color: #fff;
 }
