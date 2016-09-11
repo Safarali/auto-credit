@@ -3,7 +3,7 @@
 @media only screen and (max-width: 768px) {
 
 	.hero-banner {
-		height: 700px;
+		height: 650px;
 	}
 	.top-navbar {
 		padding-right: 20px;
@@ -52,9 +52,9 @@
 	}
 
 	.form-control:focus {
-		padding: 21px;
+		padding: 25px;
 		border: 1px solid rgba(231, 76, 60,0.5);
-		border-left: 3px solid rgba(231, 76, 60,0.5);
+		border-left: 5px solid rgba(231, 76, 60,0.5);
 	}
 
 }
