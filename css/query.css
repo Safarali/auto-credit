@@ -51,8 +51,10 @@
 		font-size: 16px;
 	}
 
-	.form-control {
-		padding: 20px;
+	.form-control:focus {
+		padding: 21px;
+		border: 1px solid rgba(231, 76, 60,0.5);
+		border-left: 3px solid rgba(231, 76, 60,0.5);
 	}
 
 }
