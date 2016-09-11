@@ -42,10 +42,19 @@ h3 {
 	color: #34495e;
 }
 
+h4 {
+	font-size: 20px;
+	line-height: 32px;
+	color: #34495e;
+	text-align: center;
+	text-transform: uppercase;
+}
+
 p {
 	font-size: 18px;
 	line-height: 26px;
 	color: #34495e;
+	font-family: 'Poppins', sans-serif;
 }
 
 /* ================= Top part ================= */
@@ -84,6 +93,10 @@ p {
 	background-color: #e74c3c;
 	color: #fff;
 	font-family: 'Montserrat', sans-serif;
+	outline: none !important;
+	border: none;
+	width: 100%;
+	font-size: 18px;
 }
 
 .my-button:hover{
@@ -143,13 +156,6 @@ p {
 	border-left: 4px solid rgba(231, 76, 60,0.7);
 }
 
-.deals-button {
-	outline: none !important;
-	border: none;
-	width: 100%;
-	font-size: 18px;
-}
-
 form h2, form p {
 	color: #34495e;
 	text-align: center;
@@ -176,12 +182,32 @@ form p {
 	width: 15%;
 	margin-bottom: 60px;
 }
-/* ========== Section Loan requirements =========== */
 
+.how-it-works p {
+	padding-bottom: 30px;
+	color: rgba(44, 62, 80,.8);
+}
+/* ========== Section About-Loan =========== */
 .details {
 	background-color: #34495e;
 }
 
 .details  h3 {
 	color: #fff;
+}
+
+.details-box hr {
+	margin-bottom: 20px;
+}
+
+.loan-terms {
+	list-style-type:square;
+}
+
+
+.loan-terms li {
+	text-transform: lowercase;
+	letter-spacing: 1px;
+	font-size: 18px;
+	color: rgba(44, 62, 80,.8);
 }
