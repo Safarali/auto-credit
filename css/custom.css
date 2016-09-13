@@ -145,6 +145,12 @@ p {
 	border: none;
 	position: relative;
 	top: 80px;
+	transform: scale(0.9);
+	transition: transform 0.7s;
+}
+
+.hero-form:hover {
+	transform: scale(1);
 }
 .form-control {
 	padding: 25px;
@@ -210,4 +216,12 @@ form p {
 	letter-spacing: 1px;
 	font-size: 18px;
 	color: rgba(44, 62, 80,.8);
+}
+
+.details-box {
+	transform: scale(0.9);
+	transition: transform 0.7s;
+}
+.details-box:hover {
+	transform: scale(1.0);
 }
